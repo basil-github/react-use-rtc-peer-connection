@@ -1,5 +1,5 @@
 {
-  "name": "react-use-rtc-peer-connection",
+  "name": "use-rtc-peer-connection",
   "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
@@ -12,6 +12,12 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "tsup": "^8.0.2"
+    "@types/react": "^18.2.66",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18"
   }
 }
